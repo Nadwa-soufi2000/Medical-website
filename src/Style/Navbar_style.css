@@ -1,0 +1,319 @@
+.list 
+{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  width: 401px;
+  height: 25px;
+  gap: 38px;
+}
+
+.list.activeList
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  justify-content: center;
+  width: 190px;
+  height: 200px;
+  gap: 15px;
+  padding-right: 10px;
+ 
+}
+
+.list.activeList li .lin
+{
+  text-decoration: none;
+  color:#011632;
+  font-weight: 500;
+  font-family: "Roboto" , sans-serif;
+  width: 36px;
+  height: 20px;
+  font-size: 14px;
+}
+.list li .lin 
+{
+  text-decoration: none;
+  color:#011632;
+  font-weight: 500;
+  font-family: "Roboto" , sans-serif;
+  width: 41px;
+  height: 25px;
+  font-size: 16px;
+}
+.par-navb
+{
+   background-color: rgb(188, 247, 247);
+}
+.navb 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1440px;
+    margin: 0px auto;
+   
+}
+.navb-ch
+{
+  width:300px;
+   height:48px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   border-radius:20px;
+   background-color:#FFFFFF;
+}
+.navb-ch img
+{
+   width:20px ;
+   height:20px;
+}
+.navb-ch input
+{
+   width:260px;
+   height:48px;
+   outline:none;
+   border:none;
+   border-radius:20px;
+   padding-left: 10px;
+}
+.navb-ch2
+{
+   display:flex;
+   width:30%;
+   align-items:center;
+   justify-content:center;
+}
+.navb-ch2 h1
+{
+    color:#9BCDF0;
+    text-align:center;
+    font-weight:700;
+    font-family:'Roboto' , sans-serif ;
+    font-size:42px;
+    width:86px;
+    height:62px;
+}
+.navb-ch2 h1 span
+{
+   color:#59C12E;
+   font-family:'Roboto' , sans-serif;
+   font-weight:700;
+   font-size:42px;
+}
+.navb-ch2 img
+{
+   width:126px;
+   height:84px;
+}
+
+@media(max-width:768px)
+{
+  .navb
+  {
+    padding: 20px 6px;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .group-span
+   {
+     display: block;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 5px;
+    
+   }
+   .group-span span
+   {
+      width: 30px;
+      height: 3px;
+      background-color:#42aa4277;
+   }
+   .list,
+   .navb-ch,
+   .navb-ch2
+   {
+    display: none;
+   }
+}
+@media(min-width:769px)
+{
+  .navb
+  {
+    padding: 20px 6px;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .group-span
+   {
+     display: block;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 5px;
+    
+   }
+   .group-span span
+   {
+      width: 30px;
+      height: 3px;
+      background-color:#42aa4277;
+   }
+   .list,
+   .navb-ch,
+   .navb-ch2
+   {
+    display: none;
+   }
+   
+}
+@media(min-width:992px)
+{
+  .list,
+  .navb-ch,
+  .navb-ch2
+  {
+   display: flex;
+  }
+  .list 
+  {
+    width: 360px;
+    height: 25px;
+    gap: 23px;
+    flex-direction: row;
+   
+  }
+  .list li .lin 
+  {
+    width: 41px;
+    height: 25px;
+    font-size: 16px;
+  }
+  .navb 
+  {
+      flex-direction: row;
+      align-items: center;
+      padding:0px;
+      width: 100%;
+  }
+  .navb-ch
+  {
+     width:270px;
+     height:40px;
+  }
+  .navb-ch img
+  {
+     width:15px ;
+     height:15px;
+  }
+  .navb-ch input
+  {
+     width:245px;
+     height:40px;
+  }
+  .navb-ch2
+  {
+     width:24%;
+  }
+  .navb-ch2 h1
+  {
+      font-size:36px;
+      width:86px;
+      height:55px;
+     
+  }
+  .navb-ch2 h1 span
+  {
+     font-size:36px;
+  }
+  .navb-ch2 img
+  {
+     width:120px;
+     height:75px;
+  }
+  .group-span
+  {
+    display: none;
+  }
+}
+@media(min-width:1200px)
+{
+  .list,
+  .navb-ch,
+  .navb-ch2
+  {
+   display: flex;
+  }
+  .list 
+  {
+    width: 401px;
+    height: 25px;
+    gap: 38px;
+    flex-direction: row;
+  }
+  .list li .lin 
+  {
+    width: 41px;
+    height: 25px;
+    font-size: 16px;
+  }
+  .navb 
+  {
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      width: 1440px;
+  }
+  .navb-ch
+  {
+     width:300px;
+     height:48px;
+  }
+  .navb-ch img
+  {
+     width:20px ;
+     height:20px;
+  }
+  .navb-ch input
+  {
+     width:260px;
+     height:48px;
+  }
+  .navb-ch2
+  {
+     width:30%;
+  }
+  .navb-ch2 h1
+  {
+      font-size:42px;
+      width:86px;
+      height:62px;
+  }
+  .navb-ch2 h1 span
+  {
+     font-size:42px;
+  }
+  .navb-ch2 img
+  {
+     width:126px;
+     height:84px;
+  }
+  .group-span
+  {
+    display: none;
+  }
+  
+}

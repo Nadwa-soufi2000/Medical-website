@@ -1,0 +1,1873 @@
+*{
+    box-sizing: border-box;
+}
+.pare2
+{
+    width: 1440px;
+    margin: 0px auto;
+    display:flex;
+}
+.ch222
+{
+    width: 90%;
+    margin: 0px auto;
+}
+.sidebar2
+{
+    width:441px;
+    height: 1096px;
+    border-radius: 12px;
+    background-color: #74BCEE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 25px;
+}
+.sidebar2 img{
+    width: 182px;
+    height: 153px;
+}
+.sidebar2 .navll
+{
+    width: 350px;
+    height: 68px;
+    background-color: #E6F6FE;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto" , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#000000;
+}
+.profile-edit2
+{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+.profile-edit2 img 
+{
+    width: 182px;
+    height: 153px;
+    border-radius: 95px;
+    position: relative;
+    right: 15px;
+    background-color: #C1E8B1;
+}
+.swift,
+.bankName,
+.ibanCode,
+.pdf,
+.pdf2,
+.change
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.swift label,
+.bankName label,
+.ibanCode label,
+.pdf .esn,
+.pdf2 .esn2,
+.change label
+{
+    width: 139px;
+    height: 39px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto" , sans-serif;
+    color: #000000;
+}
+
+.bankName input,
+.ibanCode input
+{
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+}
+.pdf .appe{
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid rgb(166, 166, 168);
+}
+.pdf2 .appe2,
+.change button
+{
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto" , sans-serif;
+    color: #FFFFFF;
+    background-color:#C1E8B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdf2 input{
+    display: none;
+}
+
+.swift .swift-ineer
+{
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swift-ineer2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 276px;
+    height: 60px;
+}
+.swift-ineer2 input{
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.grand
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.par-addPro
+{
+    padding-left: 30px;
+}
+.addPro
+{
+    width: 331px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6F6FE;
+    border-radius: 12px;
+}
+.pIcon
+{
+    width: 60px;
+    height: 60px;
+    color: #545454;
+    font-size: 46px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pNotIcon
+{
+    width: 132px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.par-newPro
+{
+    background-color: #74BCEE;
+    width: 86%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.contr
+{
+    width:90%;
+    margin: 10px auto;
+}
+.group1,
+.group2,
+.group3,
+.group4
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top:20px;
+}
+.group1 label
+{
+    width: 86px;
+    height: 36px;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.group1 input
+{
+    width: 430px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.group2 label
+{
+    width: 79px;
+    height: 36px;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.group2 input
+{
+    width: 430px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.group3 label
+{
+    width: 137px;
+    height: 36px;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.group3-ch
+{
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 44px;
+    border-radius: 8px;
+}
+.group3-ch input
+{
+    width: 184px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.group4 label
+{
+    width: 174px;
+    height: 36px;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.group4-ch
+{
+    width: 100%;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.group4-ch input
+{
+    display: none;
+}
+.group4-ch label
+{
+    width: 330px;
+    height: 234px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group5
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.group5 button
+{
+    width: 331px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #E6F6FE;
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-products
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.all-products
+{
+    width: 374px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+}
+.delandUp
+{
+    width: 374px;
+    height: 54px;
+    background-color: #E6F6FE;
+    border-radius: 12px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 15px;
+}
+.delandUp img
+{
+   width: 22.5px;
+   height: 22.5px;
+}
+.details
+{
+    width: 374px;
+    height: 210px;
+    background-color: #74BCEE;
+    box-shadow: 0px 4px 4px 0px #c0bebe;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.pppho
+{
+    display: flex;
+    gap: 10px;
+}
+.pppho img
+{
+    width: 103px;
+    height: 85px;
+    border-radius: 10px;
+    border: 5px solid #FFFFFF;
+}
+.det1,
+.det2,
+.det3
+{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.det11
+{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    position: relative;
+    top: 28px;   
+}
+.det2{
+    position: relative;
+    bottom: 30px;
+}
+.det3{
+    position: relative;
+    bottom: 63px;
+}
+.det1 h3
+{
+    width: 56px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    color:#FFFFFF;
+}
+.det1 p
+{
+    width: 78px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter" , sans-serif;
+    color:#FFFFFF;
+}
+.det11 h3{
+    width: 72px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    color:#FFFFFF;
+}
+.det11 p
+{
+    width: 59px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter" , sans-serif;
+    color:#FFFFFF;
+}
+.det2 h3
+{
+    width: 48px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+   color:#FFFFFF;
+}
+.det2 p{
+    width: 51px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter" , sans-serif;
+    color:#FFFFFF;
+}
+.det3 h3 
+{
+    width: 84px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+   color:#FFFFFF;
+}
+.det3 p
+{
+    width: 119px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter" , sans-serif;
+  color:#FFFFFF;
+}
+.parent-services
+{
+    width: 830px;
+    height: 478px;
+    background-color: #74BCEE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.sr1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+   
+}
+
+.sr1-ch h2
+{
+    width: 116px;
+    height: 36px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Inter" , sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+}
+.checkbox-group
+{
+    width: 306px;
+    height: 264px;
+    border-radius: 8px;
+    background-color: #E9ECEF;
+    border: 1px solid #E9ECEF;
+    position: relative;
+    bottom: 8px;
+}
+.dentist
+{
+    width: 305px;
+    height: 44px;
+    border-bottom: 1px solid #DFF2E6;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+}
+.dentist label
+{
+    width: 250px;
+    height: 28px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    color: #343A40;
+}
+.sr2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 24px;
+   
+}
+.sr2 button
+{
+    width: 331px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    color: #000000;
+    border-radius: 10px;
+}
+@media(max-width:768px)
+{
+    .grand
+    {
+       height: 720px;
+    }
+    .sidebar2
+    {
+      width:100%;
+      height: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding-top: 30px;
+      gap: 25px;
+      background-color: transparent;
+   }
+   .sidebar2 img{
+     display: none;
+   }
+   .ch222
+   {
+    height: 80%;
+   }
+   .sidebar2 .navll
+   {
+       width: 175px;
+       height: 34px;
+       font-size: 14px;
+   }
+   .pare2
+   {
+    flex-direction: column;
+    width:89%;
+    padding: 0px;
+
+   }
+   .profile-edit2
+   {
+    width: 100%;
+    top: 19px;
+   }
+   .profile-edit2 img
+   {
+    width: 77px;
+    height: 57px;
+    right: 0px;
+   }
+   .labelFile
+    {
+    width: 60px;
+    height: 20px;
+    font-size: 13px;
+    }
+    .sr1-ch2 .group1,
+    .sr1-ch2 .group2,
+    .sr1-ch2 .group3
+    {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .parent-services
+    {
+       width: 244px;
+       margin: 20px auto;
+       position: relative;
+       right: 5px;
+       height: 680px;
+    }
+    
+    .sr1{
+        gap: 4px;
+        flex-direction: column;
+        height: 82%;
+    }
+    .sr1-ch,
+    .sr1-ch2{
+        height: 50%;
+        width: 100%;
+    }
+    .sr1-ch2 form .group1 label
+    {
+        width: 43px;
+        height: 18px;
+        font-size: 14px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .sr1-ch2 form .group1 input
+    {
+        width: 215px;
+        height: 28px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 label
+    {
+        width: 62px;
+        height: 26px;
+        font-size: 14px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 input
+       {
+        width: 215px;
+        height: 28px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+       }
+      .sr1-ch2 form .group3 label
+    {
+        width: 110px;
+        height: 26px;
+        font-size: 14px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group3 .group3-ch
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 215px;
+        height: 28px;
+        border-radius: 8px;
+    }
+    .sr1-ch2 form .group3 .group3-ch input
+    {
+        width:105px;
+        height: 28px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    .sr1-ch h2
+    {
+        width: 90px;
+        height: 26px;
+        font-size: 23px;
+        position: relative;
+        top: 10px;
+        display: none;
+    }
+    .checkbox-group
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        background-color: #E9ECEF;
+        border: 1px solid #E9ECEF;
+        position: relative;
+        bottom: 4px;
+    }
+    .dentist
+    {
+        width: 100%;
+        height: 16%;
+        border-bottom: 1px solid #DFF2E6;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+    .dentist label
+    {
+        width: 250px;
+        height: 28px;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Inter" , sans-serif;
+        color: #343A40;
+    }
+      .sr2 button
+       {
+       width: 166px;
+       height: 35px;
+       font-size: 14px;
+       }
+   .group5 button
+       {
+       width: 166px;
+       height: 35px;
+       font-size: 14px;
+       }
+   .par-newPro
+   {
+       width: 244px;
+       margin: 0px auto;
+       padding-top: 20px;
+   }
+
+   .contr
+   {
+       width:85%;
+       margin: 10px auto;
+   }
+
+
+        
+
+
+
+   .contr .group1 label
+   {
+       width: 43px;
+       height: 18px;
+       font-size: 14px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+   .contr .group1 input
+   {
+       width: 215px;
+       height: 28px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+   }
+    .contr .group2 label
+   {
+       width: 62px;
+       height: 26px;
+       font-size: 14px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group2 input
+      {
+       width: 215px;
+       height: 28px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+      }
+     .contr .group3 label
+   {
+       width: 110px;
+       height: 26px;
+       font-size: 14px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group3 .group3-ch
+   {
+       display: flex;
+       justify-content: space-between;
+       width: 215px;
+       height: 28px;
+       border-radius: 8px;
+   }
+   .contr .group3 .group3-ch input
+   {
+       width:105px;
+       height: 28px;
+       background-color: #FFFFFF;
+       border-radius: 8px;
+   }
+   .group4 label
+   {
+       width: 150px;
+       height: 26px;
+       font-size: 14px;
+   }
+   .group4-ch
+   {
+       width: 100%;
+       height: 296px;
+       gap: 6px;
+       padding: 0px 20px;
+   }
+   .group4-ch label
+   {
+       width: 165px;
+       height: 117px;
+       font-size: 14px;
+       text-align: center;
+   }
+   .grand{
+      top: 0px;
+      margin-top: 30px;
+   }
+
+   .parent-products
+   {
+       display: flex;
+       gap: 20px;
+       align-items: center;
+       justify-content: center;
+       width: 240px;
+       margin: 10px auto;
+       flex-wrap: wrap;
+   }
+   
+   .all-products
+   {
+       width: 100%;
+       height: 264px;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .delandUp
+   {
+       width:100%;
+       height: 54px;
+       background-color: #E6F6FE;
+       border-radius: 12px 0px;
+       display: flex;
+       align-items: center;
+       justify-content: flex-end;
+       gap: 12px;
+       padding: 15px;
+   }
+   .delandUp img
+   {
+      width: 14px;
+      height: 14px;
+   }
+   .details
+   {
+       width: 100%;
+       height: 210px;
+       background-color: #74BCEE;
+       box-shadow: 0px 4px 4px 0px #c0bebe;
+       display: flex;
+       padding-left: 10px;
+       padding-top: 10px;
+       flex-direction: column;
+   }
+   .pppho img
+   {
+       width: 90px;
+       height:80px;
+       border-radius: 10px;
+       border: 5px solid #FFFFFF;
+   }
+       
+        
+   .det1 h3
+   {
+       width: 44px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det1 p
+   {
+       width: 68px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det2 h3
+   {
+       width: 38px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det2 p{
+       width: 44px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det3 h3 
+   {
+       width: 74px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det3 p
+   {
+       width: 120px;
+       height: 20px;
+       font-size: 14px;
+   }
+   .det11 h3
+     {
+       width: 57px;
+       height: 20px;
+       font-size: 14px;
+     }
+   .det11 p
+    {
+       width: 49px;
+       height: 20px;
+       font-size: 14px;
+    }
+
+   .det2{
+    position: relative;
+    bottom: 15px;
+    }
+   .det3{
+    position: relative;
+    bottom: 32px;
+    gap: 1px;
+   }
+   .det11
+   {
+       display: flex;
+       align-items: center;
+       gap: 6px;
+       position: relative;
+       top: 18px;   
+   }
+   .par-addPro
+   {
+       display: flex;
+       justify-content: center;
+       padding-top: 50px;
+       padding-left: 0px;
+       height: 770px;
+       
+   }
+   .addPro
+   {
+       width: 166px;
+       height: 36px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pIcon
+   {
+       width: 30px;
+       height:30px;
+       color: #545454;
+       font-size: 23px;
+       padding-bottom: 5px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pNotIcon
+   {
+       width: 120px;
+       height: 16px;
+       font-size: 16px;
+    
+   }
+}
+@media(min-width:769px)
+{
+    .sidebar2
+     {
+       width:220px;
+       height: 1096px;
+       display: flex;
+       flex-wrap: nowrap;
+       align-items: center;
+       flex-direction: column;
+       padding-top: 30px;
+       gap: 25px;
+    }
+    .ch222{
+        height: 100%;
+    }
+    .sidebar2 img{
+        width: 91px;
+        height: 77px;
+        display: block;
+    }
+    .sidebar2 .navll
+    {
+        width: 175px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .pare2
+    {
+        flex-direction: row;
+        width:98%;
+        padding: 0px;
+    }
+    .profile-edit2 img
+   {
+    width: 91px;
+    height: 77px;
+    right: 0px;
+   }
+   .labelFile
+    {
+    width: 60px;
+    height: 20px;
+    font-size: 13px;
+    }
+
+
+    .parent-services
+    {
+       width: 530px;
+       height: 458px;
+       margin: 20px auto;
+    }
+    
+    .sr1{
+        gap: 4px;
+    }
+    .sr1-ch2 form .group1 label
+    {
+        width: 66px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .sr1-ch2 form .group1 input
+    {
+        width: 243px;
+        height: 42px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 label
+    {
+        width: 62px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 input
+       {
+        width: 243px;
+        height: 42px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+       }
+      .sr1-ch2 form .group3 label
+    {
+        width: 110px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group3 .group3-ch
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 243px;
+        height: 42px;
+        border-radius: 8px;
+    }
+    .sr1-ch2 form .group3 .group3-ch input
+    {
+        width: 120px;
+        height: 44px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    .sr1-ch h2
+    {
+        width: 90px;
+        height: 26px;
+        font-size: 23px;
+        position: relative;
+        top: 10px;
+    }
+    .checkbox-group
+    {
+        width: 260px;
+        height: 250px;
+        border-radius: 8px;
+        background-color: #E9ECEF;
+        border: 1px solid #E9ECEF;
+        position: relative;
+        bottom: 4px;
+    }
+    .dentist
+    {
+        width: 260px;
+        height: 40px;
+        border-bottom: 1px solid #DFF2E6;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+    .dentist label
+    {
+        width: 250px;
+        height: 28px;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Inter" , sans-serif;
+        color: #343A40;
+    }
+      .sr2 button
+     {
+       width: 190px;
+       height: 50px;
+       font-size: 22px;
+   }
+   .group5 button
+   {
+       width: 190px;
+       height: 50px;
+       font-size: 22px;
+    }
+   .par-newPro
+   {
+       width: 65%;
+       margin: 0px auto;
+       padding-top: 20px;
+   }
+
+   .contr
+   {
+       width:80%;
+       margin: 10px auto;
+   }
+   .par-newPro
+   {
+       width: 70%;
+       margin: 0px auto;
+       padding-top: 20px;
+   }
+
+   .contr
+   {
+       width:85%;
+       margin: 10px auto;
+   }
+       
+   .contr .group1 label
+   {
+       width: 66px;
+       height: 26px;
+       font-size: 23px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+   .contr .group1 input
+   {
+       width: 266px;
+       height: 44px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+   }
+    .contr .group2 label
+   {
+       width: 62px;
+       height: 26px;
+       font-size: 23px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group2 input
+      {
+       width: 266px;
+       height: 44px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+      }
+     .contr .group3 label
+   {
+       width: 110px;
+       height: 26px;
+       font-size: 23px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group3 .group3-ch
+   {
+       display: flex;
+       justify-content: space-between;
+       width: 266px;
+       height: 44px;
+       border-radius: 8px;
+   }
+   .contr .group3 .group3-ch input
+   {
+       width: 120px;
+       height: 44px;
+       background-color: #FFFFFF;
+       border-radius: 8px;
+   }
+      
+
+   .group4 label
+   {
+       width: 150px;
+       height: 26px;
+       font-size: 23px;
+   }
+   .group4-ch
+   {
+       width: 100%;
+       height: 296px;
+       gap: 10px;
+       padding: 0px 20px;
+   }
+   .group4-ch label
+   {
+       width: 165px;
+       height: 117px;
+       font-size: 14px;
+   }
+       
+   .par-addPro
+   {
+       padding-left: 30px;
+   }
+   .addPro
+   {
+       width: 166px;
+       height: 36px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pIcon
+   {
+       width: 30px;
+       height:30px;
+       color: #545454;
+       font-size: 23px;
+       padding-bottom: 5px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pNotIcon
+   {
+       width: 120px;
+       height: 16px;
+       font-size: 16px;
+    
+   }
+    
+}
+@media(min-width:992px)
+{
+    .sidebar2
+    {
+      width:431px;
+      height: 1096px;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 30px;
+      gap: 25px;
+     }
+   .sidebar2 img{
+    width: 172px;
+    height: 143px;
+    display: block;
+    }
+   .sidebar2 .navll
+    {
+    width: 310px;
+    height: 48px;
+    font-size: 17px;
+    }
+    .ch222{
+        height: 100%;
+    }
+    .pare2
+    {
+        flex-direction: row;
+        width: 98%;
+        padding: 0px;
+    }
+    .profile-edit2 img
+   {
+    width: 182px;
+    height: 153px;
+    right: 15px;
+   }
+   .labelFile
+    {
+    width: 120px;
+    height: 31px;
+    font-size: 20px;
+    }
+    .parent-services
+    {
+       width: 620px;
+       height: 458px;
+       margin: 20px auto;
+    }
+   
+    .sr1{
+        gap: 4px;
+    }
+    .sr1-ch2 form .group1 label
+    {
+        width: 66px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .sr1-ch2 form .group1 input
+    {
+        width: 300px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 label
+    {
+        width: 62px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 input
+       {
+        width: 300px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+       }
+      .sr1-ch2 form .group3 label
+    {
+        width: 110px;
+        height: 26px;
+        font-size: 23px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group3 .group3-ch
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        height: 44px;
+        border-radius: 8px;
+    }
+    .sr1-ch2 form .group3 .group3-ch input
+    {
+        width: 145px;
+        height: 44px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    .sr1-ch h2
+    {
+        width: 90px;
+        height: 26px;
+        font-size: 23px;
+        position: relative;
+        top: 10px;
+    }
+    .checkbox-group
+    {
+        width: 294px;
+        height: 250px;
+        border-radius: 8px;
+        background-color: #E9ECEF;
+        border: 1px solid #E9ECEF;
+        position: relative;
+        bottom: 4px;
+    }
+    .dentist
+    {
+        width: 290px;
+        height: 40px;
+        border-bottom: 1px solid #DFF2E6;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+    .dentist label
+    {
+        width: 250px;
+        height: 28px;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Inter" , sans-serif;
+        color: #343A40;
+    }
+      .sr2 button
+     {
+       width: 190px;
+       height: 50px;
+       font-size: 22px;
+   }
+   .group5 button
+   {
+       width: 190px;
+       height: 50px;
+       font-size: 22px;
+    }
+   .par-newPro
+   {
+       width: 70%;
+       margin: 0px auto;
+       padding-top: 20px;
+   }
+
+   .contr
+   {
+       width:85%;
+       margin: 10px auto;
+   }
+
+
+   .contr .group1 label
+   {
+       width: 66px;
+       height: 26px;
+       font-size: 23px;
+   }
+   .contr .group1 input
+   {
+       width: 300px;
+       height: 44px;
+   }
+    .contr .group2 label
+   {
+       width: 62px;
+       height: 26px;
+       font-size: 23px;
+   }
+    .contr .group2 input
+      {
+       width: 300px;
+       height: 44px;
+      }
+     .contr .group3 label
+   {
+       width: 110px;
+       height: 26px;
+       font-size: 23px;
+   }
+    .contr .group3 .group3-ch
+   {
+       display: flex;
+       justify-content: space-between;
+       width: 300px;
+       height: 44px;
+       border-radius: 8px;
+   }
+   .contr .group3 .group3-ch input
+   {
+       width: 145px;
+       height: 44px;
+       background-color: #FFFFFF;
+       border-radius: 8px;
+   }
+       
+   .group4 label
+   {
+       width: 150px;
+       height: 26px;
+       font-size: 23px;
+   }
+   .group4-ch
+   {
+       width: 100%;
+       height: 296px;
+       gap: 16px;
+       padding: 0px 20px;
+   }
+   .group4-ch label
+   {
+       width: 280px;
+       height: 230px;
+       font-size: 23px;
+   }
+   .par-addPro
+   {
+       padding-left: 30px;
+   }
+   .addPro
+   {
+       width: 331px;
+       height: 71px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pIcon
+   {
+       width: 50px;
+       height: 50px;
+       color: #545454;
+       font-size: 36px;
+       padding-bottom: 8px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .pNotIcon
+   {
+       width: 122px;
+       height: 20px;
+       font-size: 18px;
+   }
+}
+@media(min-width:1440px)
+{
+    .ch222{
+        height: 100%;
+    }
+   
+   .sidebar2
+     {
+       width:441px;
+       height: 1096px;
+       display: flex;
+       flex-wrap: nowrap;
+       align-items: center;
+       flex-direction: column;
+       padding-top: 30px;
+       gap: 25px;
+    }
+    .sidebar2 img{
+        width: 182px;
+        height: 153px;
+        display: block;
+    }
+    .sidebar2 .navll
+    {
+        width: 350px;
+        height: 68px;
+        font-size: 20px;
+    }
+    .pare2
+    {
+        flex-direction: row;
+        width: 1440px;
+        padding: 0px;
+    }
+    .profile-edit2 img
+   {
+    width: 182px;
+    height: 153px;
+    right: 15px;
+   }
+   .labelFile
+    {
+    width: 120px;
+    height: 31px;
+    font-size: 20px;
+    }
+    .parent-services
+     {
+        width: 832px;
+        height: 478px;
+        margin: 20px auto;
+    }
+       
+
+    .sr1-ch2 form .group1 label
+    {
+        width: 86px;
+        height: 36px;
+        font-size: 30px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .sr1-ch2 form .group1 input
+    {
+        width: 430px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 label
+    {
+        width: 79px;
+        height: 36px;
+        font-size: 30px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group2 input
+       {
+        width: 430px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+       }
+      .sr1-ch2 form .group3 label
+    {
+        width: 137px;
+        height: 36px;
+        font-size: 30px;
+        font-family: 'Inter' , sans-serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+     .sr1-ch2 form .group3 .group3-ch
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 430px;
+        height: 44px;
+        border-radius: 8px;
+    }
+    .sr1-ch2 form .group3 .group3-ch input
+    {
+        width: 184px;
+        height: 44px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    .sr1{
+        gap: 18px;
+    }  
+    .sr1-ch h2
+    {
+        width: 116px;
+        height: 36px;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: "Inter" , sans-serif;
+        color: #FFFFFF;
+        position: relative;
+        top: 15px;
+    }
+    .checkbox-group
+    {
+        width: 306px;
+        height: 264px;
+        border-radius: 8px;
+        background-color: #E9ECEF;
+        border: 1px solid #E9ECEF;
+        position: relative;
+        bottom: 8px;
+    }
+    .dentist
+    {
+        width: 305px;
+        height: 44px;
+        border-bottom: 1px solid #DFF2E6;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+    .dentist label
+    {
+        width: 250px;
+        height: 28px;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Inter" , sans-serif;
+        color: #343A40;
+    }
+  .sr2 button
+     {
+    width: 331px;
+    height: 70px;
+    font-size: 30px;
+   }
+   .par-newPro
+   {
+       width: 86%;
+       margin: 0px auto;
+       padding-top: 20px;
+   }
+   .contr
+   {
+       width:90%;
+       margin: 10px auto;
+   }
+        
+   .group4 label
+   {
+       width: 174px;
+       height: 36px;
+       font-size: 30px;
+   }
+   .group4-ch
+   {
+       width: 100%;
+       height: 306px;
+       gap: 24px;
+   }
+   .group4-ch label
+   {
+       width: 330px;
+       height: 234px;
+       font-size: 30px;
+   }
+
+
+   .contr .group1 label
+   {
+       width: 86px;
+       height: 36px;
+       font-size: 30px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+   .contr .group1 input
+   {
+       width: 430px;
+       height: 44px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+   }
+    .contr .group2 label
+   {
+       width: 79px;
+       height: 36px;
+       font-size: 30px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group2 input
+      {
+       width: 430px;
+       height: 44px;
+       border-radius: 8px;
+       background-color: #FFFFFF;
+      }
+     .contr .group3 label
+   {
+       width: 137px;
+       height: 36px;
+       font-size: 30px;
+       font-family: 'Inter' , sans-serif;
+       font-weight: 900;
+       color: #FFFFFF;
+   }
+    .contr .group3 .group3-ch
+   {
+       display: flex;
+       justify-content: space-between;
+       width: 430px;
+       height: 44px;
+       border-radius: 8px;
+   }
+   .contr .group3 .group3-ch input
+   {
+       width: 184px;
+       height: 44px;
+       background-color: #FFFFFF;
+       border-radius: 8px;
+   }
+    .group5 button
+     {
+         width: 331px;
+         height: 70px;
+         font-size: 30px;
+      }
+         
+
+      .group4 label
+      {
+          width: 174px;
+          height: 36px;
+          font-size: 30px;
+      }
+      .group4-ch
+      {
+          width: 100%;
+          height: 306px;
+          gap: 24px;
+          padding: 0px;
+      }
+      .group4-ch label
+      {
+          width: 330px;
+          height: 234px;
+          font-size: 30px;
+      }
+         
+      .par-addPro
+      {
+          padding-left: 30px;
+      }
+      .addPro
+      {
+          width: 331px;
+          height: 71px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .pIcon
+      {
+          width: 60px;
+          height: 60px;
+          color: #545454;
+          font-size: 46px;
+          padding-bottom: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .pNotIcon
+      {
+          width: 132px;
+          height: 24px;
+          font-size: 20px;
+      }
+}

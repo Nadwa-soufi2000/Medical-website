@@ -1,0 +1,357 @@
+.find
+{
+    width: 1440px;
+    margin:0px auto;
+    background-color: #22ACF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.find h1
+{
+    width: 267px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 39px;
+    font-family: "Roboto" , sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 975px;
+    height: 74px;
+    box-shadow: 4px 4px 4px 0px #b9b8b8;
+    padding: 0px 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+    bottom: 20px;
+}
+.search .im1
+{
+    width: 32.24px;
+    height: 25.24px;
+}
+.search .im2{
+    width: 17.5;
+    height: 25px;
+}
+.search input 
+{
+    height: 74px;
+    width: 890px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.filter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 12px;
+}
+.filter button
+{
+    width: 245px;
+    height: 60px;
+    box-shadow: 0px 4px 4px 0px #999898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #FDFEFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto" , sans-serif;
+    color: #22ACF1;
+}
+.total-data
+{
+    width:1440px;
+    border-radius:15px;
+    margin:20px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.products-data
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:20px auto;
+    width:90%;
+}
+.doctors-data
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:20px auto;
+    width:90%;
+}
+  
+
+@media(max-width:768px)
+{
+    .find {
+        width: 100%;
+        }
+    
+    .total-data
+      {
+        width: 96%;
+      }
+    .products-data
+    {
+        width:234px; 
+    }
+    .doctors-data
+    {
+        width:235px;
+    }
+    .find h1
+    {
+        width: 143px;
+        height: 35px;
+        font-size: 22px;
+    }
+    .search
+    {
+        width: 233px;
+        height: 44px;
+        position: relative;
+        bottom: 10px;
+        padding: 0px 4px;
+    }
+    .search .im1
+    {
+        width: 22.24px;
+        height: 19.24px;
+    }
+    .search .im2{
+        width: 17.5;
+        height: 15px;
+    }
+    .search input 
+    {
+        height: 44px;
+        width: 178px;
+    }
+    .filter
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 14px;
+        position: relative;
+        bottom: 7px;
+        width: 210px;
+    }
+    .filter button
+    {
+        width: 210px;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+@media(min-width:769px)
+{
+    .find {
+        width: 100%;
+        }
+    
+    .products-data
+    {
+        width:305px;
+    }
+    .doctors-data
+    {
+        width:305px;
+    }
+    .find h1
+    {
+        width: 143px;
+        height: 35px;
+        font-size: 22px;
+    }
+    .search
+    {
+        width:487px;
+        height: 54px;
+        position: relative;
+        bottom: 10px;
+    }
+    .search .im1
+    {
+        width: 30.24px;
+        height: 20.24px;
+    }
+    .search .im2{
+        width: 16.5;
+        height: 22px;
+    }
+    .search input 
+    {
+        height: 54px;
+        width: 402px;
+    }
+    .filter
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        position: relative;
+        bottom: 7px;
+    }
+    .filter button
+    {
+        width: 196px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .total-data
+    {
+        width: 80%;
+    }
+}
+
+@media(min-width:992px)
+{
+    .find {
+        width: 100%;
+        }
+    
+    .products-data
+    {
+        width:90%;
+    }
+    .doctors-data
+    {
+        width:90%;
+    }
+    .find h1
+    {
+        width: 250px;
+        height: 44px;
+        font-size: 37px;
+    }
+    .search
+    {
+        width: 775px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .search .im1
+    {
+        width: 32.24px;
+        height: 25.24px;
+    }
+    .search .im2{
+        width: 17.5;
+        height: 25px;
+    }
+    .search input 
+    {
+        height: 60px;
+        width: 690px;
+    }
+    .filter
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        position: relative;
+        bottom: 12px;
+    }
+    .filter button
+    {
+        width: 230px;
+        height: 50px;
+        font-size: 19px;
+    }
+    .total-data
+    {
+        width: 80%;
+    }
+}
+@media(min-width:1440px)
+{
+    .find {
+        width: 1440px;
+        }
+    
+    .products-data
+    {
+        width:90%;
+    }
+    .doctors-data
+    {
+        width:90%;
+    }
+    .find h1
+    {
+        width: 267px;
+        height: 60px;
+        font-size: 39px;
+    }
+    .search
+    {
+        width: 975px;
+        height: 74px;
+        position: relative;
+        bottom: 20px;
+    }
+    .search .im1
+    {
+        width: 32.24px;
+        height: 25.24px;
+    }
+    .search .im2{
+        width: 17.5;
+        height: 25px;
+    }
+    .search input 
+    {
+        height: 74px;
+        width: 890px;
+    }
+    .filter
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        position: relative;
+        bottom: 12px;
+    }
+    .filter button
+    {
+        width: 245px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .total-data
+    {
+        width: 1440px;
+    }
+}

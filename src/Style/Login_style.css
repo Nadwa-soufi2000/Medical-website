@@ -1,0 +1,721 @@
+
+.totalDiv 
+{
+    display: flex;
+    width: 1440px;
+    margin: 0px auto;
+    padding:0px 10px;
+}
+.formStyle 
+{
+    background-color: #74BCEE;
+    width: 100%;
+    height: 428px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 10px;
+    padding-top: 70px;
+    
+}
+.formStyleCo
+{
+    background-color: #74BCEE;
+    width: 100%;
+    height: 348px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 10px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.formStyles 
+{
+    background-color: #74BCEE;
+    width: 100%;
+    height: 368px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 10px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+}
+
+.lab1 ,
+.lab1s,
+.lab1ss,
+.lab2ss,
+.lab2,
+.DivButo,
+.DivButos,
+.DivButoss {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.lab1 label {
+    width: 120px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.DivButo label
+{
+    width:120px;
+    height: 39px;
+    padding-right: 69px;
+}
+.lab1s label {
+    width: 120px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.lab1ss label,
+.lab2ss label {
+    width: 216px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.DivButos label
+{
+    width:120px;
+    height: 39px;
+    padding-right: 69px;
+}
+.DivButoss label
+{
+    width:216px;
+    height: 39px;
+    padding-right: 69px;
+}
+
+.lab2
+{
+    margin-top: 40px;
+}
+.lab2 label {
+    width: 128px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.lab1 input,
+.lab1s input, 
+.lab2 input,
+.lab1ss input,
+.lab2ss input 
+{
+    padding-left: 20px;
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.Div1
+{
+    width:30%;
+}
+.Div2
+{
+    width:70%;
+    height:577px;
+}
+.Div2 h1{
+    padding-bottom:40px;
+    color:#59C12E;
+    font-family:'Roboto', sans-serif;
+    font-size:40px;
+}
+.Div1Ch
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     align-items:center;
+}
+.grand-dggg
+{
+    width:86%;
+    margin:20px auto;
+}
+.par-dggg
+{
+    display:flex;
+    justify-content:center;
+    height:368px;
+}
+.par2-dggg
+{
+    width:403px;
+    height:368px;
+}
+.par3-dggg
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:30%;
+}
+.dd
+{
+    width:380px;
+    display:flex;
+    margin-top:15px;
+    justify-content:center;
+    align-items:center;
+    height:60px;
+    border-radius:12px;
+    background-color:#74BCEE;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dggg{
+    width:403px;
+    height:368px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     align-items:center;
+}
+.Div1Ch h1
+{
+    text-align:center;
+    font-size:64px;
+    position:relative;
+    top:110px;
+    color:#9BCDF0;
+    font-weight:700;
+    font-family: 'Roboto', sans-serif;
+    width:180px;
+    height:99px;
+}
+.Div1Ch h1 span 
+{
+     color:#59C12E;
+     font-family:'Roboto', sans-serif;
+     font-weight:700;
+     width:180px;
+     height:99px;
+}
+.Div1Ch img
+{
+    width:403px;
+     height:280px;
+}
+   
+
+.dggg h1
+{
+    text-align:center;
+    font-size:64px;
+    color:#9BCDF0;
+    font-weight:700;
+    font-family: 'Roboto', sans-serif;
+    width:180px;
+    height:99px;
+   position: relative;
+   top: 40px;
+   z-index: 1;
+   
+}
+.dggg h1 span 
+{
+     color:#59C12E;
+     font-family:'Roboto', sans-serif;
+     font-weight:700;
+     width:180px;
+     height:99px;
+}
+.dggg img
+{
+     width:100%;
+     height:327px;
+      position: relative;
+      bottom: 36px;
+}
+.Para
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width: 90%;
+}
+.ParaLi1 ,
+.ParaLi2 
+{
+     font-size:12px;
+     font-weight:500;
+     color:#FFFFFF;
+     text-decoration:none;
+}
+
+.Buto
+{
+     width:379px;
+     font-size:25px;
+     height:60px;
+     color:#FFFFFF;
+     background-color:#C1E8B1;
+     border-radius:12px;
+     text-align: center;
+}
+.par-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 62px;
+    border-top:1px solid #011632;
+
+}
+.footer
+{
+       width:1440px ;
+       height:62px ;
+       display:flex;
+       justify-content:space-between;
+       align-items:'center';
+}
+.ch2 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+}
+.ch2 li 
+{
+    list-style: none;
+}
+.ch2 li img
+{
+    width:32px;
+    height: 32px;
+}
+
+@media(max-width:768px)
+{
+    .totalDiv
+   {
+    width: 240px;
+    height: 854px;
+   }
+   .Div1
+   {
+    display: none;
+   }
+   .Div2
+   {
+    width: 98%;
+    margin: 0px auto;
+   }
+   .Div2 h1
+   {
+    font-size: 25px;
+   }
+   .lab1 label
+   {
+    width: 60px;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .lab1s label
+   {
+    width: 60px;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .lab2 label
+   {
+    width: 64px;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .lab1ss label,
+   .lab2ss label
+   {
+    width: 108px;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .lab1 input,
+   .lab1s input,
+   .lab2 input,
+   .lab1ss input,
+   .lab2ss input
+   {
+    width:100%;
+    height: 45px;
+   }
+   .lab1,
+   .lab1s,
+   .lab2,
+   .lab1ss,
+   .lab2ss
+   {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .Para
+   {
+    flex-direction: column;
+    width: 100%;
+   }
+   .DivButo,
+   .DivButos,
+   .DivButoss
+   {
+    flex-direction:column;
+    align-items: flex-start;
+   }
+   .Buto
+   {
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+   }
+   .formStyle,
+   .formStyles,
+   .formStyleCo
+   {
+     padding-top: 50px;
+     align-items: center;
+   }
+   .footer{
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+   }
+   .par-footer{
+    height: 20%;
+    width: 100%;
+    padding: 10px 0px;
+   }
+   .ch1,
+   .ch2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+   }
+   .ch1 p
+   {
+    font-size: 12px;
+   }
+   .ch2
+   {
+    padding-right: 34px;
+   }
+   .ch2 li img{
+    width: 17px;
+    height: 17px;
+   }
+   
+}
+@media(min-width:769px)
+{
+    .totalDiv
+   {
+      width: 100%;
+      height: 1160px;
+   }
+   .Div1
+   {
+    display: none;
+   }
+   .Div2
+   {
+      width: 84%;
+      margin: 0px auto;
+   }
+   .lab1 label,
+   .lab1s label
+   {
+    width: 120px;
+    font-size: 25px;
+   }
+   .lab2 label
+   {
+    width: 128px;
+    font-size: 25px;
+   }
+   .lab1ss label,
+   .lab2ss label
+   {
+      width: 216px;
+      height: 39px;
+   }
+   .lab1 input,
+   .lab1s input,
+   .lab2 input,
+   .lab1ss input,
+   .lab2ss input
+   {
+    width: 380px;
+    height: 60px;
+   }
+   .lab1,
+   .lab1s,
+   .lab2,
+   .lab1ss,
+   .lab2ss
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .DivButo,
+   .DivButos,
+   .DivButoss 
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .footer
+   {
+    width: 900px;
+   }
+}
+@media(min-width:992px)
+{
+    .totalDiv
+    {
+     width: 94%;
+     height: 1150px;
+    }
+    .Div1
+   {
+    display:block;
+   }
+   .Div2
+   {
+    width: 70%;
+   }
+   .lab1 label,
+   .lab1s label
+   {
+    width: 120px;
+    font-size: 25px;
+   }
+   .lab2 label
+   {
+    width: 128px;
+    font-size: 25px;
+   }
+   .lab1ss label,
+   .lab2ss label
+   {
+    width: 216px;
+    height: 39px;
+   }
+   .lab1 input,
+   .lab1s input,
+   .lab2 input,
+   .lab1ss input,
+   .lab2ss input
+   {
+    width: 380px;
+    height: 60px;
+   }
+   .lab1,
+   .lab1s,
+   .lab2,
+   .lab1ss,
+   .lab2ss
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .DivButo,
+   .DivButos,
+   .DivButoss
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .footer
+   {
+    width: 1180px;
+   }
+}
+@media(min-width:1440px)
+{
+   .totalDiv
+   {
+    width: 1440px;
+   }
+   .Div1
+   {
+    display:block;
+   }
+   .Div2
+   {
+    width: 70%;
+   }
+   .lab1 label,
+   .lab1s label
+   {
+    width: 120px;
+    font-size: 25px;
+   }
+   .lab2 label
+   {
+    width: 128px;
+    font-size: 25px;
+   }
+   .lab1ss label,
+   .lab2ss label
+   {
+     width: 216px;
+     height: 39px;
+   }
+   .lab1 input,
+   .lab1s input,
+   .lab2 input,
+   .lab1ss input,
+   .lab2ss input
+   {
+    width: 380px;
+    height: 60px;
+   }
+   .lab1,
+   .lab1s,
+   .lab2,
+   .lab1ss,
+   .lab2ss
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .DivButo,
+   .DivButos,
+   .DivButoss
+   {
+    flex-direction: row;
+    align-items: center;
+   }
+   .footer
+   {
+    width: 1440px;
+   }
+}
+@media(max-width:768px)
+{
+    .grand-dggg
+    {
+        width:240px;
+        height:854px;
+    }
+    .par-dggg
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .par2-dggg
+    {
+        width:100%;
+        height:90%;
+        
+    }
+    .par3-dggg
+    {
+        height:20%;
+    }
+    .dd
+    {
+        width:190px;
+        margin-top:15px;
+        height:40px;
+        font-size:14px;
+      
+    }
+    .dggg{
+        width:100%;
+        height:100%;
+    }
+    .dggg img
+    {
+         width:100%;
+         height:163px;
+          position: relative;
+          bottom: 14px;
+    }
+    .dggg h1
+    {
+        text-align:center;
+        font-size:32px;
+        width:90px;
+        height:50px;
+        position: relative;
+        top: 40px;
+        z-index: 1;
+    }
+    .dggg h1 span 
+    {
+         width:90px;
+         height:50px;
+    }
+}
+@media(min-width:769px)
+{
+    .grand-dggg
+    {
+        width:77%;
+        height:1100px;
+    }
+   
+}
+
+@media(min-width:992px)
+{
+    .grand-dggg
+    {
+        width:77%;
+        height:1150px;
+    }
+}
+@media(min-width:1200px)
+{
+    .grand-dggg
+    {
+        width:86%;
+        
+    }
+}

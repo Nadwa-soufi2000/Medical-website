@@ -1,0 +1,415 @@
+.totalDiv2
+{
+    display: flex;
+    width:1440px;
+    margin: 0px auto;
+}
+.formStyle2
+{
+    background-color: #74BCEE;
+    width: 100%;
+    border-radius: 12px;
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 30px;
+    padding-top: 50px;
+}
+.Div22
+{
+    width:70%;
+}
+.Div22 h1 
+{
+    padding-bottom:40px;
+    color:#59C12E;
+    font-family:'Roboto', sans-serif;
+    font-size:40px;
+}
+.block1 ,
+.block2,
+.block3,
+.block33,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    width: 90%;
+    margin: 0px auto;
+}
+.block77
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    width: 80%;
+    margin: 0px auto;
+}
+.block1 input,
+.block2 input,
+.block3 input,
+.block4 input,
+.block5 input,
+.block6 input
+{
+    padding-left: 16px;
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+}
+.block8 .up
+{
+   
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    background-color:#C1E8B1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.block8 input
+{
+    display: none;
+}
+.block3-pp 
+{
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block7 .block7-ch1 
+{
+    width: 380px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.block7  label
+{
+     width: 131px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block7 .block7-ch1 .block7-ch2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 276px;
+    height: 60px;
+}
+
+.block7 .block7-ch1 .block7-ch2 input 
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    padding-left: 25px;
+}
+
+.block1 
+{
+   
+}
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8
+{
+    margin-top: 20px;
+}
+
+.block33 
+{
+    padding-top: 10px;
+}
+.block1 label
+{
+    width: 135px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block2 label
+{
+    width: 121px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block3 label
+{
+    width: 121px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block33 label
+{
+    width: 121px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 69px;
+}
+.block4 label
+{
+    width: 131px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block8 .notUp
+{
+    width: 131px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block5 label 
+{
+    width: 131px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.block6 label
+{
+    width: 131px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.DivButo2 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 90%;
+    margin: 0px auto;
+}
+.DivButo2 label
+{
+    width: 124px;
+    height: 39px;
+}
+.Buto2
+{
+     width:379px;
+     font-size:25px;
+     height:60px;
+     color:#FFFFFF;
+     background-color:#C1E8B1;
+     border-radius:12px;
+     text-align: center;
+}
+.share
+{
+    
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+@media(max-width:768px)
+{
+    .totalDiv2
+    {
+        width: 240px;
+    }
+    .Div22
+    {
+        width: 98%;
+        margin: 0px auto;
+    }
+    .Div22 h1
+    {
+        font-size: 22px;
+    }
+    .block1 ,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6,
+    .block7,
+    .block8,
+    .DivButo2
+   {
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .block1 input,
+   .block2 input,
+   .block3 input,
+   .block4 input,
+   .block5 input,
+   .block6 input,
+   .block7 .block7-ch1,
+   .block8 .up,
+   .DivButo2 .Buto2{
+     width: 100%;
+     height: 45px;
+   }
+   .block8 .up,
+   .DivButo2 .Buto2{
+    font-size: 16px;
+   }
+   .block33{
+    display: none;
+   }
+   .block7-ch1{
+   }
+   .block7 .block7-ch1 .block7-ch2{
+    height: 100%;
+    width: 100%;
+    
+   }
+   .block7 .block7-ch1 .block7-ch2 input
+   {
+    width: 25%;
+    height: 30px;
+     padding-left: 13px;
+   }
+   .block1 label,
+   .block2 label,
+   .block3 label,
+   .block4 label,
+   .block5 label,
+   .block6 label,
+   .block7 label,
+   .block8 .notUp,
+   .DivButo2 label
+   {
+     display: flex;
+     align-items: center;
+     font-size: 13px;
+   }
+   
+}
+@media(min-width:769px)
+{
+    .totalDiv2
+    {
+        width: 100%;
+        height: 1160px;
+    }
+    .Div22
+    {
+        width: 84%;
+        margin: 0px auto;
+    }
+    .Div22 h1
+    {
+        font-size: 40px;
+    }
+    .block1 ,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6,
+    .block7,
+    .block8
+   {
+     flex-direction: row;
+     align-items: center;
+   }
+}
+@media(min-width:992px)
+{
+    .totalDiv2
+    {
+        width: 94%;
+        height: 1000px;
+    }
+    .Div22
+    {
+        width: 70%;
+    }
+    .Div22 h1
+    {
+        font-size: 40px;
+    }
+    .block1 ,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6,
+    .block7,
+    .block8
+   {
+     flex-direction: row;
+     align-items: center;
+   }
+}
+@media(min-width:1440px)
+{
+    .totalDiv2
+    {
+        width: 1440px;
+    }
+    .Div22
+    {
+        width: 70%;
+    }
+    .Div22 h1
+    {
+        font-size: 40px;
+    }
+    .block1 ,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6,
+    .block7,
+    .block8
+   {
+     flex-direction: row;
+     align-items: center;
+   }
+}
